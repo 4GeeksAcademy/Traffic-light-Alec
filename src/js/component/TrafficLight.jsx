@@ -5,7 +5,7 @@ const TrafficLight = () => {
     const [color, setColor] = useState('red');
 
     return (
-        <div className="traffic-light">
+        <div className="traffic-light mt-5">
             <div
                 className={`light red ${color === 'red' ? 'active' : ''}`}
                 onClick={() => setColor('red')}
